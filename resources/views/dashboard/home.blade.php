@@ -41,13 +41,13 @@
         <div class="w-75 mx-2 rounded-xxl relative">
             <div class="w-95 mx-auto bg-white py-3 rounded-xxl">
                 <div class="w-90 mx-auto flex">
-                    <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl shadow-sm">
+                    <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl hover:shadow-none shadow-sm">
                         <p class="text-center">Google Analytics</p>
                     </div>
-                    <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl  shadow-sm">
+                    <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl hover:shadow-none  shadow-sm">
                         <p class="text-center">Total Rates</p>
                     </div>
-                    <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl shadow-sm">
+                    <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl hover:shadow-none shadow-sm">
                         <p class="text-center">Total Messages</p>
                     </div>
                 </div>
