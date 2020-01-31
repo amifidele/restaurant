@@ -12,7 +12,7 @@
                     <li class="mx-1">Hi, UserName</li>
                     <li class="mx-1">
                         <div class="rounded-full" style="height: 40px; width: 40px">
-                            <img class="clip-full rounded-full" src="{{ asset('image/avatar.jpg') }}">
+                            <img class="clip-full rounded-full border-solid border-red border-2" src="{{ asset('image/avatar.jpg') }}">
                         </div>
                     </li>
                 </ul>
@@ -35,8 +35,10 @@
                     <li  class="my-3"><a href="#" class="no-underline">Testimonials</a></li>
                     <li class="my-3"><a href="#" class="no-underline">Gallery</a></li>
                     <li class="my-3"><a href="#" class="no-underline">Messages</a></li>
+                    <li  class="my-3"><a href="#" class="no-underline">Logout</a></li>
                 </ul>
             </div>
+
         </div>
         <div class="w-75 mx-2 rounded-xxl relative">
             <div class="w-95 mx-auto bg-white py-3 rounded-xxl">
@@ -48,7 +50,7 @@
                         <p class="text-center">Total Rates</p>
                     </div>
                     <div class="w-30 mx-2 bg-white-smoke pt-1 rounded-xxl hover:shadow-none shadow-sm">
-                        <p class="text-center">Total Messages</p>
+                        <p class="text-center">Visit Website</p>
                     </div>
                 </div>
 
