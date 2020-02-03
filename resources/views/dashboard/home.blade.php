@@ -49,7 +49,7 @@
                         <p class="text-center">Total Rates</p>
                     </div>
                     <div class="w-30 mx-2 bg-white-smoke pt-1 py-2 rounded-xxl hover:shadow-none shadow-sm text-center">
-                        <a href="#" class="btn btn-sm text-center text-white bg-red-lighter"> Visit Website</a>
+                        <a href="/" class="btn btn-sm text-center text-white bg-red-lighter"> <i class="fas fa-globe"></i> Visit Website</a>
                     </div>
                 </div>
 

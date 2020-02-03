@@ -10,6 +10,15 @@
     <link href="{{ asset('fonts/_flaticon.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        h1, h3{
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            font-family: 'Nunito', sans-serif;
+        }
+    </style>
 </head>
 <body>
 @yield('content')
