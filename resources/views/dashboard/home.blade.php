@@ -1,6 +1,6 @@
 @extends('layouts.dashboard')
 @section('content')
-<div class="w-100 mx-auto bg-red-lightest">
+<div class="w-100 mx-auto bg-white-smoke">
     <div class="w-80 flex mx-auto py-2">
         <div class="w-30 pt-2">
             <p class="text-xl">Restaurant's Dashboard</p>
@@ -24,17 +24,17 @@
 
             <div class="bg-white relative mb-3 absolute rounded-xxl py-3 px-3 border-1 border-solid border-grey-dark">
                 <ul class="list pl-5">
-                    <li class="my-3"><a href="#" class="no-underline hover:"><i class="fas fa-chart-line mx-2 text-green-light"></i>Dashboard</a></li>
-                    <li class="my-3"><a href="#" class="no-underline"><i class="fas fa-utensils mx-2 text-green-light"></i>Product</a></li>
-                    <li class="my-3"><a href="#" class="no-underline"><i class="fas fa-user mx-2 text-green-light"></i>Manage Users</a></li>
+                    <li class="my-3"><a href="#" class="no-underline hover:"><i class="fas fa-chart-line mx-2 text-red-lighter"></i>Dashboard</a></li>
+                    <li class="my-3"><a href="#" class="no-underline"><i class="fas fa-utensils mx-2 text-red-lighter"></i>Product</a></li>
+                    <li class="my-3"><a href="#" class="no-underline"><i class="fas fa-user mx-2 text-red-lighter"></i>Manage Users</a></li>
                 </ul>
             </div>
             <div class="bg-white relative mb-3 absolute rounded-xxl py-3 px-3  border-1 border-solid border-grey-dark">
                 <ul class="list pl-5">
-                    <li  class="my-3"><a href="#" class="no-underline"><i class="fas fa-smile-wink mx-2 text-green-light"></i>Testimonials</a></li>
-                    <li class="my-3"><a href="#" class="no-underline"><i class="far fa-images mx-2 text-green-light"></i>Gallery</a></li>
-                    <li class="my-3"><a href="#" class="no-underline"><i class="fas fa-envelope mx-2 text-green-light"></i>Messages</a></li>
-                    <li  class="my-3"><a href="#" class="no-underline"><i class="fas fa-sign-out-alt mx-2 text-green-light"></i>Logout</a></li>
+                    <li  class="my-3"><a href="#" class="no-underline"><i class="fas fa-smile-wink mx-2 text-red-lighter"></i>Testimonials</a></li>
+                    <li class="my-3"><a href="#" class="no-underline"><i class="far fa-images mx-2 text-red-lighter"></i>Gallery</a></li>
+                    <li class="my-3"><a href="#" class="no-underline"><i class="fas fa-envelope mx-2 text-red-lighter"></i>Messages</a></li>
+                    <li  class="my-3"><a href="#" class="no-underline"><i class="fas fa-sign-out-alt mx-2 text-red-lighter"></i>Logout</a></li>
                 </ul>
             </div>
 

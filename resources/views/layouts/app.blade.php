@@ -41,15 +41,15 @@
 <div class="w-100 bg-white shadow-sm z-9999 sticky-top">
     <div class="w-85 flex mx-auto py-1">
         <div class="w-30 pt-3">
-            <p class="text-xl">Restaurant's Web</p>
+            <p class="text-xl text-red-lighter font-weight-bold">Restaurant's Web</p>
         </div>
         <div class="w-70 pt-2 text-right">
             <ul class="list inline-block">
-                <li class="mx-3">Home</li>
-                <li class="mx-3">Menu</li>
-                <li class="mx-3">Services</li>
-                <li class="mx-3">Gallery</li>
-                <li class="mx-3">About us</li>
+                <li class="mx-3"><a class="no-underline" href="/">Home</a></li>
+                <li class="mx-3"><a class="no-underline" href="/">Menu</a></li>
+                <li class="mx-3"><a class="no-underline" href="/">Services</a></li>
+                <li class="mx-3"><a class="no-underline" href="">Gallery</a></li>
+                <li class="mx-3"><a class="no-underline" href="/">About us</a></li>
             </ul>
         </div>
     </div>
