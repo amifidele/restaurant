@@ -8,7 +8,7 @@
                     <h1 class="text-4xl -mt-2">Restaurant <span class="text-xl font-weight-normal">In Rwanda</span></h1>
                     <p>it is a long established fact that a reader will be distracted<br> by the
                         readable content of page when looking .</p>
-                    <span><a class="btn bg-red-lighter text-white"> View Full Menu</a><a class="btn border-solid border-1 border-grey-dark text-grey-darkest mx-3"> See Direction's</a></span>
+                    <span><a class="btn bg-red-lighter text-white" href="/menu"> View Full Menu</a><a class="btn border-solid border-1 border-grey-dark text-grey-darkest mx-3"> See Direction's</a></span>
 
                     <div class="h-px-300"></div>
                 </div>
@@ -26,10 +26,10 @@
             <p class="line-height-small text-xl">Some Of Our</p>
             <h1 class="line-height-small text-3xl">Famous Dishe's</h1>
         </div>
-        <div class="absolute shadow-lg bg-red-lighter rounded-full l-2 mt-32 text-center pt-3 hover:shadow-none" style="width: 50px; height: 50px">
+        <div class="absolute shadow-lg bg-red-lighter rounded-full l-2 mt-32 text-center pt-3 hover:shadow-none cursor-pointer" style="width: 50px; height: 50px">
             <i class="fas fa-angle-left text-xl text-white"></i>
         </div>
-        <div class="absolute shadow-lg bg-red-lighter rounded-full r-2 mt-32 text-center pt-3 hover:shadow-none" style="width: 50px; height: 50px">
+        <div class="absolute shadow-lg bg-red-lighter rounded-full r-2 mt-32 text-center pt-3 hover:shadow-none cursor-pointer" style="width: 50px; height: 50px">
             <i class="fas fa-angle-right text-xl text-white"></i>
         </div>
          <div class="w-85 mx-auto mt-5">
@@ -40,7 +40,7 @@
                     </div>
                     <div class="text-center">
                         <div class="w-80 mx-auto">
-                            <p class="text-lg">Vegetalian Pasta Meal</p>
+                            <p class="text-lg">Vegetarian Pasta Meal</p>
                             <p class="text-xl font-weight-bold line-height-small">$ 15</p>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="text-center">
                         <div class="w-80 mx-auto">
-                            <p class="text-lg">Vegetlian Pasta Meal</p>
+                            <p class="text-lg">Vegetarian Pasta Meal</p>
                             <p class="text-xl font-weight-bold line-height-small">$ 15</p>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="text-center">
                         <div class="w-80 mx-auto">
-                            <p class="text-lg">Vegetlian Pasta Meal</p>
+                            <p class="text-lg">Vegetarian Pasta Meal</p>
                             <p class="text-xl font-weight-bold line-height-small">$ 15</p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                     </div>
                     <div class="text-center">
                         <div class="w-80 mx-auto">
-                            <p class="text-lg">Vegetlian Pasta Meal</p>
+                            <p class="text-lg">Vegetarian Pasta Meal</p>
                             <p class="text-xl font-weight-bold line-height-small">$ 15</p>
                         </div>
                     </div>
@@ -134,10 +134,10 @@
             <p class="line-height-small text-xl">Feedback From</p>
             <h1 class="line-height-small text-3xl">Our Happy Clients</h1>
         </div>
-        <div class="absolute shadow-lg bg-red-lighter rounded-full l-2 mt-20 text-center pt-3 hover:shadow-none" style="width: 50px; height: 50px">
+        <div class="absolute shadow-lg bg-red-lighter rounded-full l-2 mt-20 text-center pt-3 hover:shadow-none cursor-pointer" style="width: 50px; height: 50px">
             <i class="fas fa-angle-left text-xl text-white"></i>
         </div>
-        <div class="absolute shadow-lg bg-red-lighter rounded-full r-2 mt-20 text-center pt-3 hover:shadow-none" style="width: 50px; height: 50px">
+        <div class="absolute shadow-lg bg-red-lighter rounded-full r-2 mt-20 text-center pt-3 hover:shadow-none cursor-pointer" style="width: 50px; height: 50px">
             <i class="fas fa-angle-right text-xl text-white"></i>
         </div>
         <div class="w-85 mx-auto flex mt-5">

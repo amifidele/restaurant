@@ -16,7 +16,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css"/>
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -32,7 +32,7 @@
         h1, h3{
             font-family: 'Playfair Display', serif;
         }
-        p{
+        p, a{
             font-family: 'Nunito', sans-serif;
         }
     </style>
@@ -41,12 +41,12 @@
 <div class="w-100 bg-white shadow-sm z-9999 sticky-top">
     <div class="w-85 flex mx-auto py-1">
         <div class="w-30 pt-3">
-            <p class="text-xl text-red-lighter font-weight-bold">Restaurant's Web</p>
+            <p ><a href="/" class="text-xl text-red-lighter font-weight-bold no-underline">Restaurant's Web</a></p>
         </div>
         <div class="w-70 pt-2 text-right">
             <ul class="list inline-block">
                 <li class="mx-3"><a class="no-underline" href="/">Home</a></li>
-                <li class="mx-3"><a class="no-underline" href="/">Menu</a></li>
+                <li class="mx-3"><a class="no-underline" href="/menu">Menu</a></li>
                 <li class="mx-3"><a class="no-underline" href="/">Services</a></li>
                 <li class="mx-3"><a class="no-underline" href="">Gallery</a></li>
                 <li class="mx-3"><a class="no-underline" href="/">About us</a></li>
@@ -55,5 +55,79 @@
     </div>
 </div>
  @yield('content')
+<div class="w-100 bg-white py-3">
+   <div class="w-85 mx-auto">
+        <div class="w-100 flex">
+            <div class="w-25 py-3">
+                <div class="pl-3">
+                    <h1 class="text-lg font-weight-bold">Restaurant</h1>
+                </div>
+                <div class="w-100  border-solid border-grey-dark border-l-0 border-t-0 border-b-0 border-r-1 mt-4" style="height: 120px;">
+                    <ul class="list">
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">View Full Menu</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">Services</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">Gallery</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">About Us</a></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-25 py-3">
+                <div class="pl-3">
+                    <h1 class="text-lg font-weight-bold">Restaurant</h1>
+                </div>
+                <div class="w-100  border-solid border-grey-dark border-l-0 border-t-0 border-b-0 border-r-1 mt-4" style="height: 120px;">
+                    <ul class="list">
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">View Full Menu</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">Services</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">Gallery</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="#">About Us</a></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-25 py-3">
+                <div class="pl-3">
+                    <h1 class="text-lg font-weight-bold">Restaurant's Map</h1>
+                </div>
+                <div class="w-100  border-solid border-grey-dark border-l-0 border-t-0 border-b-0 border-r-1 mt-4" style="height: 120px;">
+                    <ul class="list">
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/menu">View Full Menu</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/services">Services</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/gallery">Gallery</a></p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/about-us">About Us</a></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-25 py-3">
+                <div class="pl-3">
+                    <h1 class="text-lg font-weight-bold">Contact Us</h1>
+                </div>
+                <div class="w-100 mt-4" style="height: 120px;">
+                    <ul class="list">
+                        <li class="pl-3"><p class="text-sm line-height-small">Phone :  +250 780 000 000</p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small">Email :  hello@restaurant.com</p></li>
+                        <li class="pl-3"><p class="text-sm line-height-small">Address :  RN 100 K</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   </div>
+</div>
+<div class="w-100 ">
+    <div class="w-85 mx-auto py-2 flex ">
+        <div class="text-left w-50 pt-3">
+            <p class="text-grey-darkest text-sm font-weight-bold">© 2020 Restaurant</p>
+        </div>
+        <div class="text-right w-50 pt-3">
+            <p class="text-red-light text-sm font-weight-bold"><a class="" href="https://www.umbrellagrp.rw">Umbrella Grp</a> Made It !</p>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    AOS.init({
+        duration: 1200,
+    });
+</script>
 </body>
 </html>

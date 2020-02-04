@@ -15,4 +15,7 @@
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+Route::get('/products', 'PageController@dashProducts')->name('dashProducts');
 Route::get('/', 'PageController@homepage')->name('homepage');
+Route::get('/menu', 'MenuController@menu_page')->name('menu_page');
+Route::resource('products', 'ProductController');
