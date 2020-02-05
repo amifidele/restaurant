@@ -16,7 +16,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -89,12 +89,9 @@
                     <h1 class="text-lg font-weight-bold">Restaurant's Map</h1>
                 </div>
                 <div class="w-100  border-solid border-grey-dark border-l-0 border-t-0 border-b-0 border-r-1 mt-4" style="height: 120px;">
-                    <ul class="list">
-                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/menu">View Full Menu</a></p></li>
-                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/services">Services</a></p></li>
-                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/gallery">Gallery</a></p></li>
-                        <li class="pl-3"><p class="text-sm line-height-small"><a href="/about-us">About Us</a></p></li>
-                    </ul>
+                    <div class="w-100">
+                        <iframe class="ml-4" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15953.739104845767!2d29.6220911!3d-1.5089336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89d76b96ef25584a!2sSusa%20Gardens!5e0!3m2!1sen!2srw!4v1580894919353!5m2!1sen!2srw" width="280" height="130" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
                 </div>
             </div>
             <div class="w-25 py-3">
@@ -124,10 +121,9 @@
     </div>
 </div>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init({
-        duration: 1200,
-    });
+    AOS.init();
 </script>
 </body>
 </html>

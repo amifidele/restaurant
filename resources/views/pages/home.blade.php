@@ -1,28 +1,37 @@
 @extends('layouts.app')
 @section('content')
     <div class="w-100 bg-white-smoke z-0">
-        <div class="w-85 flex mx-auto ">
+        <div class="w-100 flex mx-auto ">
             <div class="w-60">
-                <div class="w-100 mt-24 pt-5">
+                <div class="w-75 mx-auto pl-1 mt-24 pt-5" >
                     <h3 class="line-height-small text-xl font-weight-normal">The Best</h3>
                     <h1 class="text-4xl -mt-2">Restaurant <span class="text-xl font-weight-normal">In Rwanda</span></h1>
                     <p>it is a long established fact that a reader will be distracted<br> by the
                         readable content of page when looking .</p>
-                    <span><a class="btn bg-red-lighter text-white" href="/menu"> View Full Menu</a><a class="btn border-solid border-1 border-grey-dark text-grey-darkest mx-3"> See Direction's</a></span>
-
+                    <span><a class="btn bg-red-lighter text-white" href="/menu"> View Full Menu</a><a class="btn border-solid border-1 border-grey-dark text-grey-darkest mx-3"> See Our Services</a></span>
+                    <div class="absolute -mt-20 -ml-32 w-70">
+                        <img class="w-70" src="{{ asset('image/icon_chain.svg') }}">
+                    </div>
                     <div class="h-px-300"></div>
                 </div>
             </div>
-            <div>
-
+            <div class="w-40">
+                <div class="absolute w-100 ml-32">
+                    <img class="w-30" style="" src="{{ asset('image/desk_img.png') }}">
+                </div>
+                <div class="relative w-100 mt-16">
+                    <img class="w-60 -ml-10" src="{{ asset('image/salad.png') }}">
+                </div>
             </div>
         </div>
         <div class="border-1 border-solid bg-white-smoke border-grey-dark relative rounded-full mx-auto -mt-10" style="width: 25px; height: 40px">
-            <div class="bg-grey-darkest mx-auto sliding-down-icon rounded-full" style="height: 7px; width: 3px"></div>
+            <div class="bg-grey-darkest mx-auto sliding-down-icon rounded-full" style="height: 3px; width: 3px"></div>
         </div>
     </div>
-    <div class="w-100 bg-white-smoke  py-5">
-        <div class="w-70 mx-auto text-center">
+    <div class="w-100 bg-white-smoke  py-5 z-999 relative">
+        <div class="w-70 mx-auto text-center"  data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1000">
             <p class="line-height-small text-xl">Some Of Our</p>
             <h1 class="line-height-small text-3xl">Famous Dishe's</h1>
         </div>
@@ -84,13 +93,17 @@
          </div>
     </div>
     <div class="w-100 bg-white-smoke pt-5">
-        <div class="w-70 mx-auto text-center">
+        <div class="w-70 mx-auto text-center" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1000">
             <p class="line-height-small text-xl">Why Most</p>
             <h1 class="line-height-small text-3xl">People Choose Us</h1>
         </div>
         <div class="w-85 mx-auto">
             <div class="w-100 flex mt-5">
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-right"
+                     data-aos-offset="200"
+                     data-aos-easing="ease-in-sine">
                     <div>
 
                     </div>
@@ -99,7 +112,9 @@
                         <p>It is a long established fact that a reader will be distracted</p>
                     </div>
                 </div>
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-up"
+                     data-aos-offset="200"
+                     data-aos-easing="ease-in-sine">
                     <div>
 
                     </div>
@@ -108,7 +123,9 @@
                         <p>It is a long established fact that a reader will be distracted</p>
                     </div>
                 </div>
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-down"
+                     data-aos-offset="200"
+                     data-aos-easing="ease-in-sine">
                     <div>
 
                     </div>
@@ -117,7 +134,9 @@
                         <p>It is a long established fact that a reader will be distracted</p>
                     </div>
                 </div>
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-left"
+                     data-aos-offset="200"
+                     data-aos-easing="ease-in-sine">
                     <div>
 
                     </div>
@@ -130,7 +149,9 @@
         </div>
     </div>
     <div class="w-100 bg-white-smoke pt-5">
-        <div class="w-70 mx-auto text-center mt-5">
+        <div class="w-70 mx-auto text-center mt-5" data-aos="fade-up"
+             data-aos-easing="linear"
+             data-aos-duration="1000">
             <p class="line-height-small text-xl">Reviews From</p>
             <h1 class="line-height-small text-3xl">Our Happy Clients</h1>
         </div>

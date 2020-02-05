@@ -1,7 +1,9 @@
 @extends('layouts.app')
 @section('content')
     <div class="w-100 mx-auto bg-white-smoke">
-        <div class="w-70 mx-auto text-center pt-5">
+        <div class="w-70 mx-auto text-center pt-5" data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="500">
             <p class="line-height-small text-xl">View All</p>
             <h1 class="line-height-small text-3xl">Food and Beverage</h1>
         </div>
