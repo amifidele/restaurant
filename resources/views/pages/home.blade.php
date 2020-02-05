@@ -131,7 +131,7 @@
     </div>
     <div class="w-100 bg-white-smoke pt-5">
         <div class="w-70 mx-auto text-center mt-5">
-            <p class="line-height-small text-xl">Feedback From</p>
+            <p class="line-height-small text-xl">Reviews From</p>
             <h1 class="line-height-small text-3xl">Our Happy Clients</h1>
         </div>
         <div class="absolute shadow-lg bg-red-lighter rounded-full l-2 mt-20 text-center pt-3 hover:shadow-none cursor-pointer" style="width: 50px; height: 50px">

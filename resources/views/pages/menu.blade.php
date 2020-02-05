@@ -7,19 +7,19 @@
         </div>
         <div class="w-85 mx-auto pt-5">
             <div class="w-100 flex bg-white shadow-sm hover:shadow-md py-2 pt-2 rounded-full">
-                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3">
+                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3 cursor-pointer">
                     <p><a href="#">All Meals</a></p>
                 </div>
-                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3">
+                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3 cursor-pointer">
                     <p><a href="#">BreakFast</a></p>
                 </div>
-                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3">
+                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3 cursor-pointer">
                     <p><a href="#">Lunch</a></p>
                 </div>
-                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3">
+                <div class="w-20 text-center border-solid border-grey-dark border-b-0 border-t-0 border-l-0 border-r-1 pt-3 cursor-pointer">
                     <p><a href="#">Dinner</a></p>
                 </div>
-                <div class="w-20 text-center pt-3">
+                <div class="w-20 text-center pt-3 cursor-pointer">
                     <p><a href="#">Snacks</a></p>
                 </div>
             </div>

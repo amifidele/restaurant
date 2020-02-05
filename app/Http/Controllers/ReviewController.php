@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Products;
+use App\Review;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class ReviewController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        return view('pages.home');
     }
 
     /**
@@ -24,7 +24,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('dashboard.product_form');
+        return view('reviews.create');
     }
 
     /**
@@ -35,38 +35,39 @@ class ProductController extends Controller
      */
     public function store(Request $request)
     {
-        $data = request()->validate( [
-            'name_of_product' => 'required',
-            'description_of_product' => 'required',
-            'price_of_product' => 'required',
-            'image_of_product' => 'image|nullable|max:1999'
+        $data = request()->validate([
+            'name_of_reviewer' => 'required',
+            'company_title_of_reviewer' => 'required',
+            'comment_of_reviewer' => 'required',
+            'avatar' => 'image|nullable|max:1999'
         ]);
+
         if ($request->hasFile('cover_image')){
             //get file with extension
-            $filenameWithExt = $request->file('image_of_product')->getClientOriginalName();
+            $filenameWithExt = $request->file('avatar')->getClientOriginalName();
             //get file name
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             //get extension
-            $extension = $request->file('image_of_product')->getClientOriginalExtension();
+            $extension = $request->file('avatar')->getClientOriginalExtension();
             //filename to store
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             //upload image
-            $path = $request->file('image_of_product')->storeAs('public/product_images', $fileNameToStore);
+            $path = $request->file('avatar')->storeAs('public/avatar', $fileNameToStore);
 
         }
         else{
             $fileNameToStore = 'noimage.jpg';
         }
 
-        $product = new Products;
-        $product->name_of_product = $request->input('name_of_product');
-        $product->description_of_product = $request->input('description_of_product');
-        $product->price_of_product = $request->input('price_of_product');
-        $product->image_of_product = $fileNameToStore;
-        $product->user_id = auth()->user()->id;
-        $product->save();
+        $review = new Review;
+        $review->name_of_reviewer = $request->input('name_of_reviewer');
+        $review->company_title_of_reviewer = $request->input('company_title_of_reviewer');
+        $review->comment_of_reviewer = $request->input('comment_of_reviewer');
+        $review->avatar = $fileNameToStore;
+        $review->user_id = auth()->user()->id;
+        $review->save();
 
-        return redirect('/product-page')->with('success', 'Album Created!');
+        return redirect('/reviews');
     }
 
     /**
@@ -77,7 +78,7 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        return view('dashboard.product_detail', ['product' => '$product']);
+        //
     }
 
     /**

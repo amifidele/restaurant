@@ -22,7 +22,7 @@
         }
     </style>
 </head>
-<body>
+<body class="bg-white-smoke">
 @yield('content')
 </body>
 </html>

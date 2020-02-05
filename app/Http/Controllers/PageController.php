@@ -12,7 +12,7 @@ class PageController extends Controller
     public function dashProducts(){
         return view('dashboard.products');
     }
-    public function product_form(){
-        return view('dashboard.product_form');
+    public function product_page(){
+        return view('dashboard.product_page');
     }
 }
