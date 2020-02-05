@@ -21,7 +21,7 @@
                     <input class="form-input" type="file" name="image_of_product">
                 </div>
                 <div class="text-center mt-4">
-                    <button class="btn btn-success text-center w-30">Add Product</button>
+                    <button class="btn btn-success text-center w-30" type="submit">Add Product</button>
                 </div>
             </form>
         </div>

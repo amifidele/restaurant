@@ -7,6 +7,9 @@ use Illuminate\Http\Request;
 
 class ReviewController extends Controller
 {
+    public function page_view(){
+        return view('reviews.reviews');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +17,7 @@ class ReviewController extends Controller
      */
     public function index()
     {
-        return view('pages.home');
+        return view('reviews.review_page');
     }
 
     /**

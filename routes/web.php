@@ -20,3 +20,5 @@ Route::get('/product-page', 'PageController@product_page')->name('dashProducts')
 Route::get('/', 'PageController@homepage')->name('homepage');
 Route::get('/menu', 'MenuController@menu_page')->name('menu_page');
 Route::resource('products', 'ProductController');
+Route::resource('reviews', 'ReviewController');
+Route::get('/reviews/list', 'ReviewController@page_view')->name('review_list');

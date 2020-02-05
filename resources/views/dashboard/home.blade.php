@@ -12,7 +12,7 @@
                         <li class="my-4"><a href="#" target="content" class="no-underline hover:"><i class="fas fa-chart-line mx-2 text-red-lighter"></i>Dashboard</a></li>
                         <li class="my-4"><a href="/product-page" target="content" class="no-underline"><i class="fas fa-utensils mx-2 text-red-lighter"></i>Product</a></li>
                         <li class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-user mx-2 text-red-lighter"></i>Manage Users</a></li>
-                        <li  class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-smile-wink mx-2 text-red-lighter"></i>Reviews</a></li>
+                        <li  class="my-4"><a href="/reviews" target="content" class="no-underline"><i class="fas fa-smile-wink mx-2 text-red-lighter"></i>Reviews</a></li>
                         <li class="my-4"><a href="#" target="content" class="no-underline"><i class="far fa-images mx-2 text-red-lighter"></i>Gallery</a></li>
                         <li class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-envelope mx-2 text-red-lighter"></i>Messages</a></li>
                         <li class="my-4"><a href="/" class="no-underline"><i class="fas fa-globe mx-2 text-red-lighter"></i>Visit Website</a></li>

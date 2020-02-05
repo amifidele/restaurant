@@ -20,6 +20,9 @@
                     <label>Image / Avatar</label>
                     <input class="form-input" type="file" name="avatar">
                 </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-success text-center w-30" type="submit">Add Review</button>
+                </div>
             </form>
         </div>
     </div>
