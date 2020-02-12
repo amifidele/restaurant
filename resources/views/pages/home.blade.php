@@ -8,7 +8,7 @@
                     <h1 class="text-4xl -mt-2">Restaurant <span class="text-xl font-weight-normal">In Rwanda</span></h1>
                     <p>it is a long established fact that a reader will be distracted<br> by the
                         readable content of page when looking .</p>
-                    <span><a class="btn bg-red-lighter text-white" href="/menu"> View Full Menu</a><a class="btn border-solid border-1 border-grey-dark text-grey-darkest mx-3"> See Our Services</a></span>
+                    <span class="z-9999"><a class="btn bg-red-lighter text-white" href="/menu"> View Full Menu</a><a class="btn border-solid border-1 border-grey-dark text-grey-darkest mx-3"> See Our Services</a></span>
                     <div class="absolute -mt-20 -ml-32 w-70">
                         <img class="w-70" src="{{ asset('image/icon_chain.svg') }}">
                     </div>
@@ -43,7 +43,7 @@
         </div>
          <div class="w-85 mx-auto mt-5">
             <div class="w-100 flex mx-auto">
-                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-lg hover: p-2 rounded-xl">
+                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-md hover: p-2 rounded-xl">
                     <div class="h-px-250 mx-auto py-4 px-4" style="width: 250px">
                         <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                     </div>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-lg hover: p-2 rounded-xl">
+                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-md hover: p-2 rounded-xl">
                     <div class="h-px-250 mx-auto py-4 px-4" style="width: 250px">
                         <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                     </div>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-lg hover: p-2 rounded-xl">
+                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-md hover: p-2 rounded-xl">
                     <div class="h-px-250 mx-auto py-4 px-4" style="width: 250px">
                         <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                     </div>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-lg hover: p-2 rounded-xl">
+                <div class="w-25 mx-3 bg-white shadow-sm hover:shadow-md hover: p-2 rounded-xl">
                     <div class="h-px-250 mx-auto py-4 px-4" style="width: 250px">
                         <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                     </div>
@@ -101,7 +101,7 @@
         </div>
         <div class="w-85 mx-auto">
             <div class="w-100 flex mt-5">
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-right"
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-md"  data-aos="fade-right"
                      data-aos-offset="200"
                      data-aos-easing="ease-in-sine">
                     <div>
@@ -112,7 +112,7 @@
                         <p>It is a long established fact that a reader will be distracted</p>
                     </div>
                 </div>
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-up"
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-md"  data-aos="fade-up"
                      data-aos-offset="200"
                      data-aos-easing="ease-in-sine">
                     <div>
@@ -123,7 +123,7 @@
                         <p>It is a long established fact that a reader will be distracted</p>
                     </div>
                 </div>
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-down"
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-md"  data-aos="fade-down"
                      data-aos-offset="200"
                      data-aos-easing="ease-in-sine">
                     <div>
@@ -134,7 +134,7 @@
                         <p>It is a long established fact that a reader will be distracted</p>
                     </div>
                 </div>
-                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg"  data-aos="fade-left"
+                <div class="w-25 bg-white mx-3 py-3 px-3 rounded-xl shadow-sm hover:shadow-md"  data-aos="fade-left"
                      data-aos-offset="200"
                      data-aos-easing="ease-in-sine">
                     <div>
@@ -162,7 +162,7 @@
             <i class="fas fa-angle-right text-xl text-white"></i>
         </div>
         <div class="w-85 mx-auto flex mt-5">
-            <div class="w-30 bg-white mx-4 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+            <div class="w-30 bg-white mx-4 py-3 px-3 rounded-xl shadow-sm hover:shadow-md">
                 <div class="absolute -ml-10 -mt-5" style="width: 50px; height: 50px">
                     <img class="clip-full rounded-full border-solid border-red-lighter border-4" src="{{ asset('image/avatar.jpg') }}">
                 </div>
@@ -172,7 +172,7 @@
                     <p class="text-sm line-height-small">CTO, Jizz Group</p>
                 </div>
             </div>
-            <div class="w-30 bg-white mx-4 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+            <div class="w-30 bg-white mx-4 py-3 px-3 rounded-xl shadow-sm hover:shadow-md">
                 <div class="absolute -ml-10 -mt-5" style="width: 50px; height: 50px">
                     <img class="clip-full rounded-full border-solid border-red-lighter border-4" src="{{ asset('image/avatar.jpg') }}">
                 </div>
@@ -182,7 +182,7 @@
                     <p class="text-sm line-height-small">CFO, Kookp tm</p>
                 </div>
             </div>
-            <div class="w-30 bg-white mx-4 py-3 px-3 rounded-xl shadow-sm hover:shadow-lg">
+            <div class="w-30 bg-white mx-4 py-3 px-3 rounded-xl shadow-sm hover:shadow-md">
                 <div class="absolute -ml-10 -mt-5" style="width: 50px; height: 50px">
                     <img class="clip-full rounded-full border-solid border-red-lighter border-4" src="{{ asset('image/avatar.jpg') }}">
                 </div>
