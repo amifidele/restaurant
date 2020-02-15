@@ -24,5 +24,9 @@
 </head>
 <body class="bg-white-smoke">
 @yield('content')
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

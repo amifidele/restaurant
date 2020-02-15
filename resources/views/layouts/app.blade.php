@@ -48,7 +48,7 @@
                 <li class="mx-3"><a class="no-underline" href="/">Home</a></li>
                 <li class="mx-3"><a class="no-underline" href="/menu">Menu</a></li>
                 <li class="mx-3"><a class="no-underline" href="/">Services</a></li>
-                <li class="mx-3"><a class="no-underline" href="">Gallery</a></li>
+                <li class="mx-3"><a class="no-underline" href="/gallery/view">Gallery</a></li>
                 <li class="mx-3"><a class="no-underline" href="/">About us</a></li>
             </ul>
         </div>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="w-100  border-solid border-grey-dark border-l-0 border-t-0 border-b-0 border-r-1 mt-4" style="height: 120px;">
                     <div class="w-100">
-                        <iframe class="ml-4" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15953.739104845767!2d29.6220911!3d-1.5089336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89d76b96ef25584a!2sSusa%20Gardens!5e0!3m2!1sen!2srw!4v1580894919353!5m2!1sen!2srw" width="280" height="130" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        <iframe class="ml-4 w-85" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15953.739104845767!2d29.6220911!3d-1.5089336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x89d76b96ef25584a!2sSusa%20Gardens!5e0!3m2!1sen!2srw!4v1580894919353!5m2!1sen!2srw" height="130" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>

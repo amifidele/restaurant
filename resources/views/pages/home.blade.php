@@ -53,7 +53,6 @@
                     </div>
                     <div class="text-center">
                         <div class="w-80 mx-auto">
-                            +******----99*+++6++88888888866666666666666666666666666666666666666666666663
                             <p class="text-sm font-weight-bold">{{ $product->name_of_product }}</p>
                             <h1 class="text-xl font-weight-bold line-height-small">$ {{ $product->price_of_product }}</h1>
                         </div>
