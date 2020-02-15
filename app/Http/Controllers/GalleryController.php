@@ -2,16 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Review;
+use App\Gallery;
 use Illuminate\Http\Request;
 
-class ReviewController extends Controller
+class GalleryController extends Controller
 {
-
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     /**
      * Display a listing of the resource.
      *
@@ -19,8 +14,8 @@ class ReviewController extends Controller
      */
     public function index()
     {
-        $reviews = Review::all();
-        return view('reviews.review_page')->with('reviews', $reviews);
+        $images = Gallery::all();
+        return view('gallery.gallery_page')->with('images', $images);
     }
 
     /**
@@ -30,7 +25,7 @@ class ReviewController extends Controller
      */
     public function create()
     {
-        return view('reviews.create');
+        return view('gallery.add');
     }
 
     /**
@@ -41,39 +36,35 @@ class ReviewController extends Controller
      */
     public function store(Request $request)
     {
-        $data = request()->validate([
-            'name_of_reviewer' => 'required',
-            'company_title_of_reviewer' => 'required',
-            'comment_of_reviewer' => 'required',
-            'avatar' => 'image|nullable|max:1999'
+        $data = request()->validate( [
+            'caption' => 'required',
+            'image' => 'image|nullable|max:1999'
         ]);
 
-        if ($request->hasFile('avatar')){
+        if ($request->hasFile('image')){
             //get file with extension
-            $filenameWithExt = $request->file('avatar')->getClientOriginalName();
+            $filenameWithExt = $request->file('image')->getClientOriginalName();
             //get file name
             $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
             //get extension
-            $extension = $request->file('avatar')->getClientOriginalExtension();
+            $extension = $request->file('image')->getClientOriginalExtension();
             //filename to store
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             //upload image
-            $path = $request->file('avatar')->storeAs('public/avatar', $fileNameToStore);
+            $path = $request->file('image')->storeAs('public/images', $fileNameToStore);
 
         }
         else{
             $fileNameToStore = 'noimage.jpg';
         }
 
-        $review = new Review;
-        $review->name_of_reviewer = $request->input('name_of_reviewer');
-        $review->company_title_of_reviewer = $request->input('company_title_of_reviewer');
-        $review->comment_of_reviewer = $request->input('comment_of_reviewer');
-        $review->avatar = $fileNameToStore;
-        $review->user_id = auth()->user()->id;
-        $review->save();
+        $gallery = new Gallery;
+        $gallery->caption = $request->input('caption');
+        $gallery->image = $fileNameToStore;
+        $gallery->user_id = auth()->user()->id;
+        $gallery->save();
 
-        return redirect('/reviews');
+        return redirect('/gallery')->with('success', 'Image Added Successfully!');
     }
 
     /**

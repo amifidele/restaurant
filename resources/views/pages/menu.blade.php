@@ -34,7 +34,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -48,7 +48,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -62,7 +62,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -80,7 +80,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -94,7 +94,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -108,7 +108,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -127,7 +127,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -141,7 +141,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">
@@ -155,7 +155,7 @@
                             <img class="clip-full" src="{{ asset('image/vege.jpg') }}">
                         </div>
                         <div class="w-60 px-2">
-                            <h1 class="text-lg font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
+                            <h1 class="text-sm font-weight-bold line-height-small">Vegetarian Pasta Meal</h1>
                             <p class="text-xs line-height-small">it is a long established fact that a reader will be distracted</p>
                         </div>
                         <div class="w-20 text-center pt-3">

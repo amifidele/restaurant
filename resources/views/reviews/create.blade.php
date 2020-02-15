@@ -1,7 +1,13 @@
 @extends('layouts.dashboard')
 @section('content')
     <div class="w-80 mx-auto">
-        <div class="w-60 mx-auto">
+        <div class="absolute w-30 pt-2">
+            <a href="/reviews" class="btn bg-red-light rounded-full text-white"><- Back</a>
+        </div>
+        <div class="w-70 pt-5 mx-auto text-center">
+            <h1 class="line-height-small text-3xl">Add Reviews Here</h1>
+        </div>
+        <div class="w-60 mx-auto pt-4">
             <form action="/reviews" method="post" enctype="multipart/form-data">
                 @csrf
                 <div>

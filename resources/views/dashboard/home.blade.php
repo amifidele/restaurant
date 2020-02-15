@@ -9,14 +9,14 @@
                 </div>
                 <div class="relative mb-3 absolute mt-12 z-9999 bg-white">
                     <ul class="list pl-5">
-                        <li class="my-4"><a href="#" target="content" class="no-underline hover:"><i class="fas fa-chart-line mx-2 text-red-lighter"></i>Dashboard</a></li>
-                        <li class="my-4"><a href="/product-page" target="content" class="no-underline"><i class="fas fa-utensils mx-2 text-red-lighter"></i>Product</a></li>
-                        <li class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-user mx-2 text-red-lighter"></i>Manage Users</a></li>
-                        <li  class="my-4"><a href="/reviews" target="content" class="no-underline"><i class="fas fa-smile-wink mx-2 text-red-lighter"></i>Reviews</a></li>
-                        <li class="my-4"><a href="#" target="content" class="no-underline"><i class="far fa-images mx-2 text-red-lighter"></i>Gallery</a></li>
-                        <li class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-envelope mx-2 text-red-lighter"></i>Messages</a></li>
-                        <li class="my-4"><a href="/" class="no-underline"><i class="fas fa-globe mx-2 text-red-lighter"></i>Visit Website</a></li>
-                        <li  class="my-4"><a href="{{ route('logout') }}" class="no-underline"><i class="fas fa-sign-out-alt mx-2 text-red-lighter"></i>Logout</a></li>
+                        <li class="my-4"><a href="#" target="content" class="no-underline hover:"><i class="fas fa-chart-line mx-2 text-red-light"></i>Dashboard</a></li>
+                        <li class="my-4"><a href="/products" target="content" class="no-underline"><i class="fas fa-utensils mx-2 text-red-light"></i>Product</a></li>
+{{--                        <li class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-user mx-2 text-red-lighter"></i>Manage Users</a></li>--}}
+                        <li  class="my-4"><a href="/reviews" target="content" class="no-underline"><i class="fas fa-smile-wink mx-2 text-red-light"></i>Reviews</a></li>
+                        <li class="my-4"><a href="/gallery" target="content" class="no-underline"><i class="far fa-images mx-2 text-red-light"></i>Gallery</a></li>
+{{--                        <li class="my-4"><a href="#" target="content" class="no-underline"><i class="fas fa-envelope mx-2 text-red-lighter"></i>Messages</a></li>--}}
+                        <li class="my-4"><a href="/" class="no-underline"><i class="fas fa-globe mx-2 text-red-light"></i>Visit Website</a></li>
+                        <li  class="my-4"><a href="{{ route('logout') }}" class="no-underline"><i class="fas fa-sign-out-alt mx-2 text-red-light"></i>Logout</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +37,7 @@
 
             </div>
             <div class=" mx-2 relative">
-                <iframe class="w-100 mx-auto h-px-800" name="content" onload="window.parent.parent.scrollTo(0,0)">
+                <iframe class="w-100 mx-auto h-px-800 overflow-y-hidden" name="content" onload="window.parent.parent.scrollTo(0,0)">
 
                 </iframe>
             </div>

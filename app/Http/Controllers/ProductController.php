@@ -2,11 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Categories;
 use App\Products;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +20,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        $products = Products::orderBy('created_at', 'desc')->paginate('18');
+        return view('dashboard.product_page')->with('products' ,$products);
     }
 
     /**
@@ -24,7 +31,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('dashboard.product_form');
+        $categories = Categories::all();
+        return view('dashboard.product_form')->with('categories', $categories);
     }
 
     /**
@@ -39,9 +47,11 @@ class ProductController extends Controller
             'name_of_product' => 'required',
             'description_of_product' => 'required',
             'price_of_product' => 'required',
-            'image_of_product' => 'image|nullable|max:1999'
+            'image_of_product' => 'image|nullable|max:1999',
+            'category_id' => 'required'
         ]);
-        if ($request->hasFile('cover_image')){
+
+        if ($request->hasFile('image_of_product')){
             //get file with extension
             $filenameWithExt = $request->file('image_of_product')->getClientOriginalName();
             //get file name
@@ -63,10 +73,11 @@ class ProductController extends Controller
         $product->description_of_product = $request->input('description_of_product');
         $product->price_of_product = $request->input('price_of_product');
         $product->image_of_product = $fileNameToStore;
+        $product->category_id = $request->input('category_id');
         $product->user_id = auth()->user()->id;
         $product->save();
 
-        return redirect('/product-page')->with('success', 'Album Created!');
+        return redirect('/product-page')->with('success', 'Product added Successfully!');
     }
 
     /**
